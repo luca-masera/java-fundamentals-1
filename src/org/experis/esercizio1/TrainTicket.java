@@ -22,9 +22,17 @@ public class TrainTicket {
 
         if (age < 18){
             float discount20 = ticketPrice * 20 / 100;
-            float ticket =ticketPrice - discount20;
-            System.out.println("Yours ticket discount of 20% =" + ticket + "$" );
+            float ticket20 =ticketPrice - discount20;
+            System.out.println("Yours ticket discount of 20% =" + ticket20 + "$" );
+        } else if (age > 65) {
+            float discount40 = ticketPrice * 40 / 100;
+            float ticket40 =ticketPrice - discount40;
+            System.out.println("Yours ticket discount of 20% =" + ticket40 + "$" );
+        } else {
+            System.out.println("Your price ticket is:" + ticketPrice);
         }
+
+        scan.close();
 
     }
 }
