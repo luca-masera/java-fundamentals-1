@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14811547-d7b2-4272-ab73-41ef80782d56" name="Changes" comment="discount 40% and normal price ticket">
-      <change afterPath="$PROJECT_DIR$/src/org/experis/esercizio2/FavoriteFoods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/experis/esercizio2/README.md" afterDir="false" />
+    <list default="true" id="14811547-d7b2-4272-ab73-41ef80782d56" name="Changes" comment="Exercise 2, my favorite foods">
+      <change afterPath="$PROJECT_DIR$/src/org/experis/esercizio3/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/experis/esercizio3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/experis/esercizio2/FavoriteFoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/experis/esercizio2/FavoriteFoods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.FavoriteFoods.executor": "Run",
+    "Application.FizzBuzz.executor": "Run",
     "Application.TrainTicket.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -56,6 +59,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.experis.esercizio2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.experis.esercizio3.FizzBuzz" />
+      <module name="java-fundamentals-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.experis.esercizio3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,6 +95,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.FavoriteFoods" />
+        <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="Application.TrainTicket" />
       </list>
     </recent_temporary>
@@ -116,13 +133,22 @@
       <option name="project" value="LOCAL" />
       <updated>1711547553295</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Exercise 2, my favorite foods">
+      <option name="closed" value="true" />
+      <created>1711548592686</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711548592686</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ask age and kilometers" />
     <MESSAGE value="discount 20%" />
     <MESSAGE value="discount 40% and normal price ticket" />
-    <option name="LAST_COMMIT_MESSAGE" value="discount 40% and normal price ticket" />
+    <MESSAGE value="Exercise 2, my favorite foods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercise 2, my favorite foods" />
   </component>
 </project>
