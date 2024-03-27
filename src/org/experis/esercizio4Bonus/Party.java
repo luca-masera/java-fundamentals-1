@@ -11,14 +11,18 @@ public class Party {
 
         // Chiedere alla persona come si chiama
         System.out.println("What's your name?");
+
+        //Salvare il risultato in una variabile
         String guestName = scan.nextLine();
         //System.out.println(guestName);
+
+        //booleano
         boolean guestInvited = false;
+
         for (int i = 0; i < guests.length ; i++) {
+            System.out.println("i = " + i);
             if (guests[i].equals(guestName)){
                 guestInvited = true;
-                break;
-            }else{
 
                 break;
             }

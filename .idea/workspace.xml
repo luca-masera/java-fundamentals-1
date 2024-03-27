@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14811547-d7b2-4272-ab73-41ef80782d56" name="Changes" comment="fix exercise 3">
-      <change afterPath="$PROJECT_DIR$/src/org/experis/esercizio4Bonus/Party.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/experis/esercizio4Bonus/README.md" afterDir="false" />
+    <list default="true" id="14811547-d7b2-4272-ab73-41ef80782d56" name="Changes" comment="Bonus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/experis/esercizio4Bonus/Party.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/experis/esercizio4Bonus/Party.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711551397428</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Bonus">
+      <option name="closed" value="true" />
+      <created>1711555225380</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711555225380</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -190,6 +197,7 @@
     <MESSAGE value="Correction exercise 2 and initial exercise 3" />
     <MESSAGE value="exercise 3" />
     <MESSAGE value="fix exercise 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix exercise 3" />
+    <MESSAGE value="Bonus" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bonus" />
   </component>
 </project>
