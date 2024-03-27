@@ -14,6 +14,17 @@ public class TrainTicket {
         System.out.println("How old are you?");
         int age = scan.nextInt();
 
+        //Prezzo del biglietto
+        float price = 0.21F;
+        float ticketPrice = price * kilometers;
+
+        //Sconti in base all'etè
+
+        if (age < 18){
+            float discount20 = ticketPrice * 20 / 100;
+            float ticket =ticketPrice - discount20;
+            System.out.println("Yours ticket discount of 20% =" + ticket + "$" );
+        }
 
     }
 }
