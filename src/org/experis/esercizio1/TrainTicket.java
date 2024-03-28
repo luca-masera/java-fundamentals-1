@@ -19,7 +19,7 @@ public class TrainTicket {
         float ticketPrice = price * kilometers;
 
         //Sconti in base all'etè
-
+        System.out.println("Base price ticket is:" + ticketPrice + "$");
         if (age < 18){
             float discount20 = ticketPrice * 20 / 100;
             float ticket20 =ticketPrice - discount20;
@@ -27,10 +27,11 @@ public class TrainTicket {
         } else if (age > 65) {
             float discount40 = ticketPrice * 40 / 100;
             float ticket40 =ticketPrice - discount40;
-            System.out.println("Yours ticket discount of 20% =" + ticket40 + "$" );
-        } else {
-            System.out.println("Your price ticket is:" + ticketPrice);
+            System.out.println("Yours ticket price discount of 40% =" + ticket40 + "$" );
         }
+
+
+
 
         scan.close();
 

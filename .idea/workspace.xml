@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14811547-d7b2-4272-ab73-41ef80782d56" name="Changes" comment="Bonus">
+    <list default="true" id="14811547-d7b2-4272-ab73-41ef80782d56" name="Changes" comment="fix exercise bonus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/experis/esercizio1/TrainTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/experis/esercizio1/TrainTicket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/experis/esercizio4Bonus/Party.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/experis/esercizio4Bonus/Party.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +30,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2eGy6PRYDv0KKFQpa0pybGK3Rcl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,19 +40,19 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FavoriteFoods.executor": "Run",
-    "Application.FizzBuzz.executor": "Run",
-    "Application.Party.executor": "Run",
-    "Application.TrainTicket.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FavoriteFoods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FizzBuzz.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Party.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TrainTicket.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Party">
+}</component>
+  <component name="RunManager" selected="Application.TrainTicket">
     <configuration name="FavoriteFoods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.experis.esercizio2.FavoriteFoods" />
       <module name="java-fundamentals-1" />
@@ -106,12 +107,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TrainTicket" />
         <item itemvalue="Application.Party" />
         <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="Application.FavoriteFoods" />
-        <item itemvalue="Application.TrainTicket" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-temurin-1.8.0_402-3183f394aec4-b51e62fd" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -186,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711555225380</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix exercise bonus">
+      <option name="closed" value="true" />
+      <created>1711556240714</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711556240714</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -198,6 +214,7 @@
     <MESSAGE value="exercise 3" />
     <MESSAGE value="fix exercise 3" />
     <MESSAGE value="Bonus" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bonus" />
+    <MESSAGE value="fix exercise bonus" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix exercise bonus" />
   </component>
 </project>
